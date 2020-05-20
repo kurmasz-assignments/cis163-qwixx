@@ -1,1 +1,1 @@
-java -jar ~/Documents/Courses/CIS163/Projects/SimpleDate/lib/junit-platform-console-standalone-1.6.2.jar -cp instructorTests.jar:target/classes -c gvsucis.QwixxModelInstructorGameTest -c gvsucis.QwixxModelInstructorTest
+java -jar lib/junit-platform-console-standalone-1.6.2.jar -cp instructorTests.jar:target/classes -c gvsucis.QwixxModelInstructorGameTest -c gvsucis.QwixxModelInstructorTest
