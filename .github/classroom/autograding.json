@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Instructor tests",
+      "setup": "mvn compile",
+      "run": "sh ./runTests",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 70
+    }
+  ]
+}
