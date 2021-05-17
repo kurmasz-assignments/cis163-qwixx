@@ -254,7 +254,7 @@ public class QwixxView {
    * Update the view based on the current state of the model.
    */
   public void update() {
-
+    
     // update the dice values.
     for (int i = 0; i < model.diceValues().length; ++i) {
       diceLabels[i].setText(model.diceValues()[i]);
@@ -294,4 +294,10 @@ public class QwixxView {
   public void displayError(String string) {
     JOptionPane.showMessageDialog(frame, string, "You can't do that!", JOptionPane.ERROR_MESSAGE);
   }
+
+ public static void labelsFromStrings() {
+   String[] labelStrings = {"First", "Second", "Third", "Fourth", "Fifth" };
+   JLabel[] labels = Arrays.toStream().map(s -> new JLabel(s)).collect();
+ }
+
 }
