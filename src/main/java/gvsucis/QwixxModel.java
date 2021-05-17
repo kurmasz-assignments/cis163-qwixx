@@ -112,9 +112,8 @@ public class QwixxModel implements ReadOnlyQwixxModel {
     return answer;
   }
 
-  public String[] diceValues2() {
-    return Arrays.stream(dice).mapToObj(i -> Integer.toString(i)).toArray(String[]::new);
-  }
+  // 
+    
 
   // from ReadOnlyQwixxModel
   public String[][] numberValues() {

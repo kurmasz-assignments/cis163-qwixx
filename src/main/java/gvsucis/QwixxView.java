@@ -295,9 +295,6 @@ public class QwixxView {
     JOptionPane.showMessageDialog(frame, string, "You can't do that!", JOptionPane.ERROR_MESSAGE);
   }
 
- public static void labelsFromStrings() {
-   String[] labelStrings = {"First", "Second", "Third", "Fourth", "Fifth" };
-   JLabel[] labels = Arrays.toStream().map(s -> new JLabel(s)).collect();
- }
+ // 
 
 }
